@@ -1,5 +1,17 @@
 /* Soluzione qui */
 
+@media screen and (min-width: 576px) {
+
+    .clearfix img {
+        float: left;
+        margin-right: 1rem;
+    }
+
+    .social-networks button {
+        flex-grow: 1;
+    }
+}
+
 
 @media screen and (min-width: 768px) {
 
@@ -34,19 +46,8 @@
         }
     }
 
-    .social-networks button {
-        flex-grow: 1;
-    }
-
     .ads {
         display: block;
     }
 
-    .clearfix img {
-        display: inline-block;
-        float: left;
-        margin-right: 1rem;
-    }
-
-
-} 
+}
