@@ -69,8 +69,8 @@
 
     .recipe-card {
         display: flex;
-        justify-content: space-between;
 
+        /* Come mai il video si allunga in verticale? */
         .recipe-video {
             flex-grow: 1;
         }
@@ -78,5 +78,12 @@
 
     .social-networks .label {
         display: inline;
+    }
+
+    footer {
+        text-align: start;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
     }
 }
