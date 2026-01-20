@@ -1,1 +1,52 @@
 /* Soluzione qui */
+
+
+@media screen and (min-width: 768px) {
+
+    #topbar {
+        justify-content: flex-start;
+    }
+
+    main {
+        padding: 50px;
+    }
+
+    .recipe-origin {
+        display: inline;
+    }
+
+    .recipe-name {
+        font-size: xx-large;
+    }
+
+    /* ????? come si fanno ad incolonnare correttamente? */
+    .quick-notes ul {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 30px;
+
+        li {
+            margin: 0;
+            flex-shrink: 0;
+            flex-basis: (100%/3 - 20px);
+            min-width: (608px/3 - 20px);
+            flex-grow: 1;
+        }
+    }
+
+    .social-networks button {
+        flex-grow: 1;
+    }
+
+    .ads {
+        display: block;
+    }
+
+    .clearfix img {
+        display: inline-block;
+        float: left;
+        margin-right: 1rem;
+    }
+
+
+} 
