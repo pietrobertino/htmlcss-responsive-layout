@@ -10,6 +10,7 @@
     .social-networks button {
         flex-grow: 1;
     }
+    
 }
 
 
@@ -50,4 +51,32 @@
         display: block;
     }
 
+}
+
+@media screen and (min-width:992px) {
+    .recipe-name {
+        font-size: 3rem;
+    }
+
+    .quick-notes ul {
+        display: block;
+
+        li {
+            margin: 15px 0;
+            min-width: none;
+        }
+    }
+
+    .recipe-card {
+        display: flex;
+        justify-content: space-between;
+
+        .recipe-video {
+            flex-grow: 1;
+        }
+    }
+
+    .social-networks .label {
+        display: inline;
+    }
 }
