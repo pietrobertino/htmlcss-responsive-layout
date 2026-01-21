@@ -69,9 +69,9 @@
     .recipe-card {
         display: flex;
 
-        /* Come mai il video si allunga in verticale? */
         .recipe-video {
             flex-grow: 1;
+            height: 50vh;
         }
     }
 
